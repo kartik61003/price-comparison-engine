@@ -1,0 +1,41 @@
+.news-container{
+    border: solid rgb(255, 255, 255) 2px;
+    width: 30%;
+}
+.head{
+    text-align: center;
+    background-color: rgba(216, 193, 193, 0.359);
+    margin: unset;
+    padding:9px;
+}
+.news-box{
+    display: grid;
+    grid-gap: calc(var(--gutter) /2);
+    grid-template-columns: repeat(1, calc(105% - var(--gutter) * 2));
+    padding-bottom: calc(.75 * var(--gutter));
+    margin-bottom: calc(-.25 * var(--gutter));
+    padding: 0;
+    height: 450px;
+    overflow-x: scroll;
+    padding-left: 10px;
+}
+.post{
+   border: solid rgba(73, 69, 69, 0.597) 2px;
+   background-color: rgba(244, 225, 246, 0.875);
+   width: auto;
+   height: 100px;
+   padding: 5px;
+   border-radius: 5px;
+   display: flex;
+   flex-wrap: row;
+   align-items: center;
+}
+.post-image{
+    width: 75px;
+    height: 75px;
+    padding: 3px;
+    background-color: azure;
+    margin-right: 20px;
+    margin-top:5px;
+
+}
